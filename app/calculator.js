@@ -50,3 +50,47 @@ function performOperation(operator, operand1, operand2) {
       throw new Error('Invalid operator: ' + operator);
   }
 }
+
+
+
+
+
+
+
+
+// exports.calculate = function(expression) {
+//   if (!expression) return 0;
+  
+//   const tokens = expression.split(' ');
+//   const result = evaluateExpression(tokens);
+  
+//   return result;
+// };
+
+// function evaluateExpression(tokens) {
+//   const token = tokens.shift();
+
+//   if (isNaN(parseInt(token))) {
+//     const operand2 = evaluateExpression(tokens);
+//     const operand1 = evaluateExpression(tokens);
+//     return performOperation(token, operand1, operand2);
+//   } else {
+//     return parseInt(token, 10);
+//   }
+// }
+
+// function performOperation(operator, operand1, operand2) {
+//   switch (operator) {
+//     case '+':
+//       return operand1 + operand2;
+//     case '-':
+//       // Check if there are more operands to subtract
+//       operand1 - operand2;
+//     case '*':
+//       return operand1 * operand2;
+//     case '/':
+//       return operand1 / operand2;
+//     default:
+//       throw new Error('Invalid operator: ' + operator);
+//   }
+// }
